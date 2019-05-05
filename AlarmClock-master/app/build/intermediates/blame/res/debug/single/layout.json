@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_alarm.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/fragment_alarm.xml"
+    },
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_word_clock.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/fragment_word_clock.xml"
+    },
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_stop_watch.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/fragment_stop_watch.xml"
+    },
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_timer.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/fragment_timer.xml"
+    },
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_profile.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/fragment_profile.xml"
+    },
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_main.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_details.xml",
+        "source": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/res/layout/activity_details.xml"
+    }
+]

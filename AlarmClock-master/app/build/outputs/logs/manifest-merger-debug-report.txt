@@ -1,0 +1,236 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+MERGED from [androidx.databinding:databinding-adapters:3.4.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/2b66c58cec1887c4cce29dff00b9b33b/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.databinding:databinding-runtime:3.4.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4bb798ae04a6b5e15609e3a3d94faacd/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/b16eb8fc04b51b223bf0d98b86a4befa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/695b737bcb9d53ab6ed7cbac4ff96e49/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha5] /Users/binh/.gradle/caches/transforms-2/files-2.1/1c167a8ff7cbb1f4bafdc55372a4eba5/AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/a1b433840b825715dd3e94b9ae78c094/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/binh/.gradle/caches/transforms-2/files-2.1/ef93e34b93ac32304a002f657eb34459/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/f92a45f521f51b51080264b96fb2b4c3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.media:media:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/228c883bd6a192c63ba1669ed7f817d8/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/31f6a15d518b7c79291286808db53c42/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/51e6abd1bfc7b8fd6253ac26f4b9f4e5/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4b11bf3db9f62738fb336e9b6f1c1ba3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/binh/.gradle/caches/transforms-2/files-2.1/3280cdca270d3bae557fa7378b68c5b3/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/27a41968714ee49aa806556c4253c32b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/800a3cf7edd26cc2ec8ed2701986724c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/1452953fc4d81154450a303af8d6a429/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/cbd95a52fc3d13c8be701b816e419e61/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/9f4587a567b329e8d0046142db0e81ca/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/1d31223f8273e30c29bc2b757d8ab997/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/a1a7bd34cd4b19f36535282565eda2fa/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/97f4ece17fde3796c79e2db3aabacbfd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/675408d1a97e09288c6f65f018e2ae05/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/binh/.gradle/caches/transforms-2/files-2.1/614d1d8cb234309c1a48e44f04b4de44/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/binh/.gradle/caches/transforms-2/files-2.1/aa849ec950658c587e60c7058625699b/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/binh/.gradle/caches/transforms-2/files-2.1/b734d1824bf43963861b02346f50765d/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/binh/.gradle/caches/transforms-2/files-2.1/24f3e35043a3ded451ed428d800bf728/AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/ba9ee117dd467947c07b0c3147804766/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/a0d2c75be161ac261429c22e8ae30581/AndroidManifest.xml:17:1-25:12
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/0a7e086859ce7a8f54717db98dde0292/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/5d01165673deda25650e992ea7e8cfd9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/08c5a18a55d0b23284731cca1358156c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/0b921c33bc7b8b18313274933835a3f0/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4ab72758ff5006784b40d109b07d1a9c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/5c7ef7498b01c94428234d02ee3b56ac/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/b26fabe4a17fab892cca1518816a656c/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/80453a440758595c7bc8647ff932a9d9/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/42f5e7bbfaaf9276a2d668f16e44e2bd/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/651fcd858a7026b41eb3fbd900058fc6/AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/d69b29ea16e29979cd4b8dd7285c0e36/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:1-51:12
+	package
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:3:5-36
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:7:22-78
+uses-permission#com.android.alarm.permission.SET_ALARM
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:8:5-78
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:8:22-75
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:9:22-65
+application
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:12:5-49:19
+MERGED from [com.google.android.material:material:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/695b737bcb9d53ab6ed7cbac4ff96e49/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/695b737bcb9d53ab6ed7cbac4ff96e49/AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha5] /Users/binh/.gradle/caches/transforms-2/files-2.1/1c167a8ff7cbb1f4bafdc55372a4eba5/AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha5] /Users/binh/.gradle/caches/transforms-2/files-2.1/1c167a8ff7cbb1f4bafdc55372a4eba5/AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/binh/.gradle/caches/transforms-2/files-2.1/24f3e35043a3ded451ed428d800bf728/AndroidManifest.xml:22:5-89
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/binh/.gradle/caches/transforms-2/files-2.1/24f3e35043a3ded451ed428d800bf728/AndroidManifest.xml:22:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/a0d2c75be161ac261429c22e8ae30581/AndroidManifest.xml:22:5-23:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/a0d2c75be161ac261429c22e8ae30581/AndroidManifest.xml:22:5-23:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.1.0-alpha05] /Users/binh/.gradle/caches/transforms-2/files-2.1/24f3e35043a3ded451ed428d800bf728/AndroidManifest.xml:22:18-86
+	android:label
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:16:9-41
+	xmlns:tools
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:12:18-64
+	tools:ignore
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:18:9-48
+	android:icon
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:15:9-45
+	android:allowBackup
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:14:9-35
+	android:theme
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:17:9-40
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:13:9-38
+activity#com.example.alarmdemo.ui.MainActivity
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:19:9-28:20
+	android:label
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:21:13-45
+	android:theme
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:22:13-44
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:20:13-44
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:23:13-27:29
+action#android.intent.action.MAIN
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:24:17-69
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:24:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:26:17-77
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:26:27-74
+activity#com.example.alarmdemo.AlarmScreen
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:30:9-70
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:30:19-67
+activity#com.example.alarmdemo.AlarmDetailsActivity
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:31:9-79
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:31:19-76
+receiver#com.example.alarmdemo.AlarmManagerHelper
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:34:9-43:20
+	android:exported
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:36:13-36
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:35:13-47
+intent-filter#action:name:com.test.intent.action.ALARM
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:38:13-42:29
+action#com.test.intent.action.ALARM
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:41:17-71
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:41:25-68
+service#com.example.alarmdemo.AlarmService
+ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:46:9-48:38
+	android:enabled
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:48:13-35
+	android:name
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml:47:13-41
+uses-sdk
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+MERGED from [androidx.databinding:databinding-adapters:3.4.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/2b66c58cec1887c4cce29dff00b9b33b/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-adapters:3.4.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/2b66c58cec1887c4cce29dff00b9b33b/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4bb798ae04a6b5e15609e3a3d94faacd/AndroidManifest.xml:22:5-44
+MERGED from [androidx.databinding:databinding-runtime:3.4.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4bb798ae04a6b5e15609e3a3d94faacd/AndroidManifest.xml:22:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/b16eb8fc04b51b223bf0d98b86a4befa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/b16eb8fc04b51b223bf0d98b86a4befa/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/695b737bcb9d53ab6ed7cbac4ff96e49/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/695b737bcb9d53ab6ed7cbac4ff96e49/AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha5] /Users/binh/.gradle/caches/transforms-2/files-2.1/1c167a8ff7cbb1f4bafdc55372a4eba5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.0-alpha5] /Users/binh/.gradle/caches/transforms-2/files-2.1/1c167a8ff7cbb1f4bafdc55372a4eba5/AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/a1b433840b825715dd3e94b9ae78c094/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/a1b433840b825715dd3e94b9ae78c094/AndroidManifest.xml:20:5-44
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/binh/.gradle/caches/transforms-2/files-2.1/ef93e34b93ac32304a002f657eb34459/AndroidManifest.xml:20:5-43
+MERGED from [androidx.multidex:multidex:2.0.1] /Users/binh/.gradle/caches/transforms-2/files-2.1/ef93e34b93ac32304a002f657eb34459/AndroidManifest.xml:20:5-43
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/f92a45f521f51b51080264b96fb2b4c3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/f92a45f521f51b51080264b96fb2b4c3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/228c883bd6a192c63ba1669ed7f817d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/228c883bd6a192c63ba1669ed7f817d8/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/31f6a15d518b7c79291286808db53c42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/31f6a15d518b7c79291286808db53c42/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/51e6abd1bfc7b8fd6253ac26f4b9f4e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/51e6abd1bfc7b8fd6253ac26f4b9f4e5/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4b11bf3db9f62738fb336e9b6f1c1ba3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4b11bf3db9f62738fb336e9b6f1c1ba3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/binh/.gradle/caches/transforms-2/files-2.1/3280cdca270d3bae557fa7378b68c5b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.1.0-alpha06] /Users/binh/.gradle/caches/transforms-2/files-2.1/3280cdca270d3bae557fa7378b68c5b3/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/27a41968714ee49aa806556c4253c32b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/27a41968714ee49aa806556c4253c32b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/800a3cf7edd26cc2ec8ed2701986724c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/800a3cf7edd26cc2ec8ed2701986724c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/1452953fc4d81154450a303af8d6a429/AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/1452953fc4d81154450a303af8d6a429/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/cbd95a52fc3d13c8be701b816e419e61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/cbd95a52fc3d13c8be701b816e419e61/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/9f4587a567b329e8d0046142db0e81ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/9f4587a567b329e8d0046142db0e81ca/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/1d31223f8273e30c29bc2b757d8ab997/AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/1d31223f8273e30c29bc2b757d8ab997/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/a1a7bd34cd4b19f36535282565eda2fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/a1a7bd34cd4b19f36535282565eda2fa/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/97f4ece17fde3796c79e2db3aabacbfd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/97f4ece17fde3796c79e2db3aabacbfd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/675408d1a97e09288c6f65f018e2ae05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/675408d1a97e09288c6f65f018e2ae05/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/binh/.gradle/caches/transforms-2/files-2.1/614d1d8cb234309c1a48e44f04b4de44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0-alpha06] /Users/binh/.gradle/caches/transforms-2/files-2.1/614d1d8cb234309c1a48e44f04b4de44/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/binh/.gradle/caches/transforms-2/files-2.1/aa849ec950658c587e60c7058625699b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0-alpha01] /Users/binh/.gradle/caches/transforms-2/files-2.1/aa849ec950658c587e60c7058625699b/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/binh/.gradle/caches/transforms-2/files-2.1/b734d1824bf43963861b02346f50765d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0-alpha01] /Users/binh/.gradle/caches/transforms-2/files-2.1/b734d1824bf43963861b02346f50765d/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/binh/.gradle/caches/transforms-2/files-2.1/24f3e35043a3ded451ed428d800bf728/AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.1.0-alpha05] /Users/binh/.gradle/caches/transforms-2/files-2.1/24f3e35043a3ded451ed428d800bf728/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/ba9ee117dd467947c07b0c3147804766/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/ba9ee117dd467947c07b0c3147804766/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/a0d2c75be161ac261429c22e8ae30581/AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/a0d2c75be161ac261429c22e8ae30581/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/0a7e086859ce7a8f54717db98dde0292/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/0a7e086859ce7a8f54717db98dde0292/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/5d01165673deda25650e992ea7e8cfd9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/5d01165673deda25650e992ea7e8cfd9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/08c5a18a55d0b23284731cca1358156c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/08c5a18a55d0b23284731cca1358156c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/0b921c33bc7b8b18313274933835a3f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/0b921c33bc7b8b18313274933835a3f0/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4ab72758ff5006784b40d109b07d1a9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/4ab72758ff5006784b40d109b07d1a9c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/5c7ef7498b01c94428234d02ee3b56ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/5c7ef7498b01c94428234d02ee3b56ac/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/b26fabe4a17fab892cca1518816a656c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/b26fabe4a17fab892cca1518816a656c/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/80453a440758595c7bc8647ff932a9d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0-alpha02] /Users/binh/.gradle/caches/transforms-2/files-2.1/80453a440758595c7bc8647ff932a9d9/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/42f5e7bbfaaf9276a2d668f16e44e2bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/42f5e7bbfaaf9276a2d668f16e44e2bd/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/651fcd858a7026b41eb3fbd900058fc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] /Users/binh/.gradle/caches/transforms-2/files-2.1/651fcd858a7026b41eb3fbd900058fc6/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/d69b29ea16e29979cd4b8dd7285c0e36/AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0-alpha04] /Users/binh/.gradle/caches/transforms-2/files-2.1/d69b29ea16e29979cd4b8dd7285c0e36/AndroidManifest.xml:20:5-44
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		ADDED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/src/main/AndroidManifest.xml

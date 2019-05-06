@@ -4,20 +4,22 @@ import java.io.Serializable;
 import java.util.List;
 
 import android.content.BroadcastReceiver;
+import android.content.ComponentName;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.net.ConnectivityManager;
 import android.os.Bundle;
 import android.os.Handler;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
 import androidx.fragment.app.Fragment;
 
+import com.example.alarmdemo.AlarmBroadcastReceiver;
 import com.example.alarmdemo.AlarmDBHelper;
 import com.example.alarmdemo.AlarmDetailsActivity;
-import com.example.alarmdemo.AlarmManagerHelper;
 import com.example.alarmdemo.AlarmModel;
 import com.example.alarmdemo.R;
 import com.example.alarmdemo.databinding.ActivityMainBinding;
@@ -52,16 +54,17 @@ public class MainActivity extends AppCompatActivity {
         mBinding = DataBindingUtil.setContentView(this, R.layout.activity_main);
         configureNavigationBottom();
 
-//        br = new AlarmManagerHelper();
-//        IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
-//        filter.addAction(Intent.ACTION_AIRPLANE_MODE_CHANGED);
-//        this.registerReceiver(br, filter);
+        br = new AlarmBroadcastReceiver();
+        IntentFilter filter = new IntentFilter(ConnectivityManager.CONNECTIVITY_ACTION);
+        filter.addAction(Intent.ACTION_BOOT_COMPLETED);
+        this.registerReceiver(br, filter);
+
     }
 
     @Override
     protected void onDestroy() {
         super.onDestroy();
-//        unregisterReceiver(br);
+        unregisterReceiver(br);
     }
 
     private void configureNavigationBottom() {
@@ -73,9 +76,12 @@ public class MainActivity extends AppCompatActivity {
     private BottomNavigationView.OnNavigationItemSelectedListener bottomNavigationItemSelected = item -> {
         switch (item.getItemId()) {
             case R.id.word:
+
                 if (fragmentActive instanceof WordClockFragment) return true;
                 showHideFragment(fragmentActive, mWordClockFragment);
                 fragmentActive = mWordClockFragment;
+
+
                 return true;
 
             case R.id.alarm:
@@ -172,12 +178,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setAlarmEnabled(long id, boolean isEnabled) {
-        AlarmManagerHelper.cancelAlarms(this);
+        AlarmBroadcastReceiver.cancelAlarms(this);
         AlarmModel model = dbHelper.getAlarm(id);
         model.isEnabled = isEnabled;
         dbHelper.updateAlarm(model);
         getListAlarm();
-        AlarmManagerHelper.setAlarms(this);
+        AlarmBroadcastReceiver.setAlarms(this);
     }
 
     public void startAlarmDetailsActivity(long id) {

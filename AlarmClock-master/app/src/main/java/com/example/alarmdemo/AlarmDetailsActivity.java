@@ -1,19 +1,13 @@
 package com.example.alarmdemo;
 
-import android.app.Activity;
-import android.app.AlarmManager;
 import android.content.Intent;
-import android.media.Ringtone;
 import android.media.RingtoneManager;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.view.Window;
-import android.widget.CheckBox;
 import android.widget.EditText;
-import android.widget.FrameLayout;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.TimePicker;
@@ -139,7 +133,7 @@ public class AlarmDetailsActivity extends AppCompatActivity {
             case R.id.action_save_alarm_details: {
                 updateModelFromLayout();
 
-                AlarmManagerHelper.cancelAlarms(this);
+                AlarmBroadcastReceiver.cancelAlarms(this);
 
                 if (alarmDetails.id < 0) {
                     dbHelper.createAlarm(alarmDetails);
@@ -147,7 +141,7 @@ public class AlarmDetailsActivity extends AppCompatActivity {
                     dbHelper.updateAlarm(alarmDetails);
                 }
 
-                AlarmManagerHelper.setAlarms(this);
+                AlarmBroadcastReceiver.setAlarms(this);
 
                 setResult(RESULT_OK);
                 finish();

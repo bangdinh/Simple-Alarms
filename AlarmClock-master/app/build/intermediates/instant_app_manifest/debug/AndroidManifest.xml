@@ -9,9 +9,16 @@
         android:minSdkVersion="21"
         android:targetSdkVersion="28" />
 
-    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
-    <uses-permission android:name="com.android.alarm.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.SET_ALARM" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <!-- <uses-permission android:name="me.jfenn.alarmio.permission.ALARM" /> -->
+    <uses-permission android:name="android.permission.VIBRATE" />
     <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+    <uses-permission android:name="android.permission.REQUEST_IGNORE_BATTERY_OPTIMIZATIONS" />
 
     <application
         android:name="com.example.alarmdemo.MyApplication"
@@ -20,6 +27,7 @@
         android:debuggable="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
+        android:supportsRtl="true"
         android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity
@@ -36,13 +44,10 @@
         <activity android:name="com.example.alarmdemo.AlarmDetailsActivity" />
 
         <receiver
-            android:name="com.example.alarmdemo.AlarmManagerHelper"
+            android:name="com.example.alarmdemo.AlarmBroadcastReceiver"
             android:exported="true" >
             <intent-filter>
-
-                <!-- <action android:name="android.intent.action.BOOT_COMPLETED" /> -->
-                <!-- <action android:name="android.intent.action.INPUT_METHOD_CHANGED" /> -->
-                <action android:name="com.test.intent.action.ALARM" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
             </intent-filter>
         </receiver>
 

@@ -8,43 +8,29 @@ import android.os.IBinder;
 import android.util.Log;
 
 import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
 import androidx.core.app.JobIntentService;
 
-public class AlarmService extends JobIntentService {
+public class AlarmService extends Service {
     public static String TAG = AlarmService.class.getSimpleName();
 
-//    @Override
-//    public IBinder onBind(Intent intent) {
-//        Log.e(TAG, "onBind");
-//        return null;
-//    }
-
-    /* Give the Job a Unique Id */
-    private static final int JOB_ID = 1000;
-    public static void enqueueWork(Context ctx, Intent intent) {
-        enqueueWork(ctx, AlarmService.class, JOB_ID, intent);
+    @Nullable
+    @Override
+    public IBinder onBind(Intent intent) {
+        Log.e(TAG, "onBind");
+        return null;
     }
 
     @Override
-    protected void onHandleWork(@NonNull Intent intent) {
+    public int onStartCommand(Intent intent, int flags, int startId) {
+        Log.e(TAG, "onStartCommand");
+        Intent alarmIntent = new Intent(getBaseContext(), AlarmScreen.class);
+        alarmIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        alarmIntent.putExtras(intent);
+        getApplication().startActivity(alarmIntent);
 
-        Log.e(TAG, "onHandleWork");
-//        Intent alarmIntent = new Intent(getBaseContext(), AlarmScreen.class);
-//        alarmIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        alarmIntent.putExtras(intent);
-//        getApplication().startActivity(alarmIntent);
+//        AlarmBroadcastReceiver.setAlarms(this);
+
+        return super.onStartCommand(intent, flags, startId);
     }
-
-//    @Override
-//    public int onStartCommand(Intent intent, int flags, int startId) {
-//        Log.e(TAG, "onStartCommand");
-//        Intent alarmIntent = new Intent(getBaseContext(), AlarmScreen.class);
-//        alarmIntent.addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
-//        alarmIntent.putExtras(intent);
-//        getApplication().startActivity(alarmIntent);
-//
-////        AlarmManagerHelper.setAlarms(this);
-//
-//        return super.onStartCommand(intent, flags, startId);
-//    }
 }

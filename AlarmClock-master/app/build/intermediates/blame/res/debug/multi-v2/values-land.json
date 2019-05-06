@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/binh/Desktop/ThinhTran/DoAn/DoAN/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
+            "outputFile": "/Users/binh/Desktop/Simple-Alarms/AlarmClock-master/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-land/values-land.xml",
             "map": [
                 {
                     "source": "/Users/binh/.gradle/caches/transforms-2/files-2.1/695b737bcb9d53ab6ed7cbac4ff96e49/res/values-land/values-land.xml",

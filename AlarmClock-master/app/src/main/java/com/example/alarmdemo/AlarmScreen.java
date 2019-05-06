@@ -1,7 +1,5 @@
 package com.example.alarmdemo;
 
-import android.app.Activity;
-import android.app.AlarmManager;
 import android.content.Context;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
@@ -13,7 +11,6 @@ import android.os.PowerManager.WakeLock;
 import android.util.Log;
 import android.view.View;
 import android.view.WindowManager;
-import android.widget.Button;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -34,10 +31,10 @@ public class AlarmScreen extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         this.setContentView(R.layout.activity_alarm_screen);
 
-        String name = getIntent().getStringExtra(AlarmManagerHelper.NAME);
-        int timeHour = getIntent().getIntExtra(AlarmManagerHelper.TIME_HOUR, 0);
-        int timeMinute = getIntent().getIntExtra(AlarmManagerHelper.TIME_MINUTE, 0);
-        String tone = getIntent().getStringExtra(AlarmManagerHelper.TONE);
+        String name = getIntent().getStringExtra(AlarmBroadcastReceiver.NAME);
+        int timeHour = getIntent().getIntExtra(AlarmBroadcastReceiver.TIME_HOUR, 0);
+        int timeMinute = getIntent().getIntExtra(AlarmBroadcastReceiver.TIME_MINUTE, 0);
+        String tone = getIntent().getStringExtra(AlarmBroadcastReceiver.TONE);
 
         TextView tvName = (TextView) findViewById(R.id.alarm_screen_name);
         tvName.setText(name);
